@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|OS X 10.5.6, Leopard.
 
-- Opencore version: 0.7.1
-- Release date: 22/07/2021
+- Opencore version: 0.7.2
+- Release date: 03/08/2021
 
 # Basic Steps
 
@@ -119,6 +119,13 @@ SMBIOS|Description
 :----|:----
 MacPro5,1|Mojave and older
 MacPro6,1|Catalina and newer
+
+# Catalina and older versions of macOS
+
+- Please configure `MinDate` and `MinVersion` in UEFI > APFS to `-1`;
+- Please configure `SecureBootModel` in Misc > Security to `j137`;
+
+\* *Without above settings, macOS will not be able to boot.*
 
 # Special notes
 
