@@ -177,3 +177,6 @@ MacPro6,1|Catalina and newer
 https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/nehalem.html
 <br>
 https://dortania.github.io/Getting-Started-With-ACPI/
+
+## Discord - Universo Hackintosh
+- [Access Discord](https://discord.universohackintosh.com.br)
