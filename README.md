@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|OS X 10.5.6, Leopard.
 
-- Opencore version: 0.7.7
-- Release date: 10/01/2022
+- Opencore version: 0.7.8
+- Release date: 07/02/2022
 
 # Basic Steps
 
@@ -144,6 +144,11 @@ MacPro6,1|Catalina and newer
 - **`AvoidRuntimeDefrag`** - Big Sur may require this quirk enabled.
 - **`RebuildAppleMemoryMap`** - Please `**ENABLE**` if UEFI Environment or boot OS X 10.4 through 10.6.
 - **`AppleCpuPmCfgLock`** - Please `**ENABLE**` if you cannot disable`CFG-Lock` in BIOS.
+
+### GPU-Specific `boot-args`
+Parameter|Description
+:----|:----
+agdpmod=pikera|Used for disabling board ID checks on Navi GPUs(RX 5000 series & RX 6000 series), without this you'll get a black screen.<br>**Don't use if you don't have Navi** (ie. Polaris and Vega cards shouldn't use this).
 
 # BIOS Settings
 
